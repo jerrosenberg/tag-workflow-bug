@@ -9,6 +9,7 @@ on:
 jobs:
 
   tag:
+    name: Tag
     runs-on: ubuntu-latest
     permissions:
       contents: write
